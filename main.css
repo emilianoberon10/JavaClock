@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:#f2f2f2;
+    background-color: #25252a;
+}
+h1,h2{
+    text-transform: uppercase;
+}
+hr{
+    border-color: white;
+}
+.clock{
+    padding: 10px;
+}
+.timer, 
+.clock__buttons{
+    margin: 15px;
+    font-size: 2rem;
+}
+
+.clock__button{
+    cursor: pointer;
+    padding: 5px 8px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 0, 68);
+    color:white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset  0 0 0 0 #f9e506;
+    transition: ease-in-out 0.3s;
+    outline: none;
+}
+.clock__button:hover{
+    box-shadow: inset  100px 0 0 0 #f9e506;
+    color:#333;
+
+}
+
+.records{
+    padding: 15px 0;
+}
+
+.record{
+    width: 60%;
+    max-width: 300px;
+    display: flex;
+    margin:auto;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow:  inset 0 0 16px 3px rgba(255, 0, 68, 0.8);
+}
+.record__time{
+    padding: .3em;
+    border-bottom: 1px solid ;
+}
+.record__btn{
+    font-size: .7em;
+    width: 60px;
+    height: 30px;
+    
+}
