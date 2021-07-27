@@ -48,7 +48,7 @@ hr{
     width: 60%;
     max-width: 300px;
     display: flex;
-    margin:auto;
+    margin: 15px auto;
     align-items: center;
     justify-content: space-around;
     padding: 18px;
@@ -65,3 +65,4 @@ hr{
     height: 30px;
     
 }
+  
